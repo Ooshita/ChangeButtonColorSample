@@ -1,1 +1,2 @@
 # ChangeButtonColorSample
+Buttonの色と形を別のメソッドから動的に変えるサンプルです。
