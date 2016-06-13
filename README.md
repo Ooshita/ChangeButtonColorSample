@@ -1,5 +1,6 @@
 # ChangeButtonColorSample
 Buttonの色と形を別のメソッドから動的に変えるサンプルです。
+---------------------------
 
 サンプルではButtonのレイアウトをoval（楕円）の青色に設定しています。
 通常では色を変えたい場合には同じ形の違う色のxmlを作らなければなりません。
@@ -14,12 +15,13 @@ Buttonをクリックすると青から赤にボタンの色が変わります�
 
 
 
-使いかた。
+使いかた
+--------
 
 `
-ChangeColorButton myButton = new ChangeColorButton(context);
-//Buttonのコストトラクタ,R、G、Bを指定
-myButton.buttonColorChange(button,255,0,0);
+ChangeColorButton myButton = new ChangeColorButton(context);  
+//Buttonのコストトラクタ,R、G、Bを指定  
+myButton.buttonColorChange(button,255,0,0);  
 `
 
 という文法で簡単に色を変えることができます。
