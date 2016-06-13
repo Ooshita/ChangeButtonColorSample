@@ -19,9 +19,11 @@ Buttonをクリックすると青から赤にボタンの色が変わります�
 --------
 
 `
+
 ChangeColorButton myButton = new ChangeColorButton(context);  
 //Buttonのコストトラクタ,R、G、Bを指定  
 myButton.buttonColorChange(button,255,0,0);  
+
 `
 
 という文法で簡単に色を変えることができます。
